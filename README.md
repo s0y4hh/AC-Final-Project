@@ -107,18 +107,10 @@ CipherNest features a user-friendly graphical interface that allows seamless swi
    ```
 
 2. **Install dependencies:**  
-   [Specify installation steps, e.g. `pip install -r requirements.txt` or `npm install`]
+   [`pip install -r requirements.txt` or `npm install`]
 
 3. **Run the application:**  
-   [Specify how to run, e.g. `python main.py` or `npm start`]
-
----
-
-## 📄 Documentation
-
-- Each algorithm is explained within the application's help section.
-- Source code is commented for clarity.
-- For further documentation, refer to the `/docs` folder (if available).
+   [`python main.py` or `npm start`]
 
 ---
 
