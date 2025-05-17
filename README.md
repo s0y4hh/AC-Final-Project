@@ -33,7 +33,7 @@ CipherNest is an interactive project designed to allow users to explore and expe
 
 ### Application Architecture & UI
 
-CipherNest features a user-friendly graphical interface that allows seamless switching between different cryptographic algorithms. The application is built using [specify framework or technology, e.g., Python with Tkinter, JavaScript with React, etc.], ensuring cross-platform compatibility and ease of use.
+CipherNest features a user-friendly graphical interface that allows seamless switching between different cryptographic algorithms. The application is built using Python Flask, ensuring cross-platform compatibility and ease of use.
 
 ### Implemented Cryptographic Algorithms
 
@@ -41,31 +41,26 @@ CipherNest features a user-friendly graphical interface that allows seamless swi
 - **Type:** Symmetric Key Encryption
 - **Background:** One of the simplest and most widely known encryption techniques, where each letter in the plaintext is shifted a certain number of places down the alphabet.
 - **How it Works:** Each letter of the input is replaced by a letter some fixed number of positions down the alphabet.
-- **Libraries Used:** [Specify if any, e.g., none or built-in string manipulation]
+- **Libraries Used:**
 - **Integration:** Allows user to set the shift value and encrypt/decrypt text.
 
 #### 2. Vigenère Cipher (Symmetric)
 - **Type:** Symmetric Key Encryption
 - **Background:** Uses a keyword to shift letters of the plaintext, creating a polyalphabetic cipher.
 - **How it Works:** Each letter of the plaintext is shifted by the corresponding letter of the keyword.
-- **Libraries Used:** [Specify if any]
 - **Integration:** User inputs a keyword to perform encryption/decryption.
 
 #### 3. RSA (Asymmetric)
 - **Type:** Asymmetric Key Encryption
 - **Background:** A public-key cryptosystem widely used for secure data transmission.
 - **How it Works:** Uses two keys (public and private) for encryption and decryption.
-- **Libraries Used:** [E.g., PyCryptodome, Crypto.PublicKey]
 - **Integration:** Key generation, encryption, and decryption of text or files.
 
 #### 4. SHA-256 (Hash)
 - **Type:** Hash Function
 - **Background:** Cryptographic hash function producing a 256-bit hash value, commonly used in security applications.
 - **How it Works:** Converts input data into a fixed-size string of bytes.
-- **Libraries Used:** [E.g., hashlib]
 - **Integration:** Users can hash text or files and compare hash outputs.
-
-*Add more algorithms if implemented, following the template above.*
 
 ---
 
@@ -92,17 +87,14 @@ CipherNest features a user-friendly graphical interface that allows seamless swi
 ### SHA-256
 - **Example:**  
   Input: HELLO  
-  Hash Output: 2cf24dba5fb0a... (truncated)
-
-*Include screen snippets or text-based output examples for each algorithm’s functionality, such as screenshots or code snippets.*
-
+  Hash Output: 2cf24dba5fb0a...
 ---
 
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/s0y4hh/AC-Final-Project.git
+   git clone https://github.com/jaypbazar/AC-Final-Project.git
    cd AC-Final-Project
    ```
 
